@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 小于375px*/
+
+@media screen and (max-width: 375px) {
+    nav {
+        height: 70px;
+    }
+
+    nav h1 a {
+        font-size: 12pt;
+        letter-spacing: 8px;
+    }
+
+    #restaurants-list .img {
+        display: none;
+    }
+
+    #restaurants-list li {
+        font-size: 0.6em;
+        min-height: auto;
+        min-width:
+    }
+
+    #restaurants-list li h1 {
+        font-size: 12pt;
+    }
+
+    #restaurants-list p {
+        font-size: 10pt;
+    }
+
+    #restaurant-container,
+    #reviews-container {
+        width: 100%;
+        padding: 0 40px 30px;
+    }
+
+    .inside #footer {
+        width: 100%;
+    }
+
+    .inside #map-container {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        margin-top: 131px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 759px) {
+    #restaurants-list .img {
+        max-height: 120px;
+        max-width: 160px;
+        margin: 1px 20px 0px 0px;
+    }
+
+    #restaurants-list .info {
+        max-width: 450px;
+    }
+
+    #restaurants-list li {
+        font-size: 0.6em;
+        min-width: 229px;
+        padding: 20px 20px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 655px;
+    }
+
+    #restaurants-list li .info h1 {
+        font-size: 12pt;
+        margin: 10px 0 10px;
+    }
+
+    #restaurants-list .info p {
+        font-size: 12pt;
+    }
+
+    #restaurants-list li a {
+        margin-top: 5px;
+    }
+
+    #restaurant-container,
+    #reviews-container {
+        width: 100%;
+        padding: 0 40px 30px;
+    }
+
+    #restaurant-container {
+        width: 100%;
+    }
+
+    .inside #map-container {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        margin-top: 131px;
+    }
+
+    #reviews-list li p {
+        font-size: 12pt;
+    }
+
+    .inside #footer {
+        width: 100%;
+    }
+}
+
+/* 桌面级：大于760px */
+
+@media screen and (min-width: 760px) {
+
+    body {
+        width: 760px;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        width: 760px;
+        max-width: 760px;
+    }
+
+    #breadcrumb {
+        width: 680px;
+    }
+
+
+    .inside #map-container {
+        height: 637px;
+        position: absolute;
+        right: 40px;
+        top: 130px;
+        max-width: 42%;
+    }
+
+    #reviews-container {
+        width: 100%;
+    }
+
+    #reviews-list li>p {
+        font-size: 18px;
+    }
+
+    #restaurant-hours>tr>td {
+        font-size: 11pt;
+    }
+
+    .inside #footer {
+        width: 710px;
+    }
+}
+
+
+/* 桌面级：大于1024px */
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        width: 1024px;
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        width: 1024px;
+        max-width: 1024px;
+    }
+
+    #breadcrumb {
+        width: 944px;
+    }
+
+
+    #restaurants-list {
+        padding-left: 148px;
+    }
+
+    .inside #map-container {
+        height: 768px;
+        position: absolute;
+        right: 40px;
+        top: 130px;
+        max-width: 45%;
+    }
+
+    #reviews-container {
+        width: 100%;
+    }
+
+    #reviews-list li>p {
+        font-size: 18px;
+    }
+
+    #restaurant-hours>tr>td {
+        font-size: 14pt;
+    }
+
+    .inside #footer {
+        width: 944px;
+    }
+}
+
+/* 桌面级：大于1440px */
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        max-width: 1440px;
+        width: 1440px;
+    }
+
+    #breadcrumb {
+        width: 1360px;
+    }
+
+
+    #restaurants-list {
+        padding-left: 177px;
+    }
+
+    .inside #map-container {
+        height: 908px;
+        position: absolute;
+        right: 40px;
+        top: 130px;
+        max-width: 48%;
+    }
+
+    #reviews-container {
+        width: 100%;
+    }
+
+    #reviews-list li>p {
+        font-size: 18px;
+    }
+
+    #restaurant-hours>tr>td {
+        font-size: 14pt;
+    }
+
+    .inside #footer {
+        width: 1390px;
+    }
+}
