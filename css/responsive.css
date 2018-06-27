@@ -34,7 +34,7 @@
         min-width:
     }
 
-    #restaurants-list li h1 {
+    #restaurants-list li h3 {
         font-size: 12pt;
     }
 
@@ -80,7 +80,7 @@
         width: 655px;
     }
 
-    #restaurants-list li .info h1 {
+    #restaurants-list li .info h3 {
         font-size: 12pt;
         margin: 10px 0 10px;
     }

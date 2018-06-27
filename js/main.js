@@ -165,7 +165,7 @@ createRestaurantHTML = (restaurant) => {
     image.setAttribute('alt', restaurant.name);
     imgDiv.append(image);
 
-    const name = document.createElement('h1');
+    const name = document.createElement('h3');
     name.innerHTML = restaurant.name;
     infoDiv.append(name);
 
